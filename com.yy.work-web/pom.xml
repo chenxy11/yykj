@@ -10,6 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com.yy.work-web</artifactId>
-
-
+    <packaging>war</packaging>
+    <dependencies>
+        <!--引用work-->
+        <dependency>
+            <groupId>com.yy</groupId>
+            <artifactId>com.yy.role</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yy</groupId>
+            <artifactId>com.yy.work</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>com.yy</groupId>
+            <artifactId>com.yy.role-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
 </project>
